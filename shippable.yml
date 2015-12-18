@@ -8,6 +8,8 @@ python:
 services:
   - rethinkdb
 
+build_image: drydock/u12pytall:tip
+
 install:
   - pip install -r requirements.txt
 
